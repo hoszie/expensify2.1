@@ -7,7 +7,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "server": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -25,7 +24,6 @@
     "css-loader": "0.28.4",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
-    "live-server": "^1.2.1",
     "moment": "2.18.1",
     "node-sass": "^6.0.1",
     "normalize.css": "7.0.0",
@@ -41,10 +39,11 @@
     "style-loader": "0.18.2",
     "uuid": "3.1.0",
     "validator": "^13.6.0",
-    "webpack": "3.1.0",
-    "webpack-dev-server": "2.5.1"
+    "webpack": "3.1.0"
   },
   "devDependencies": {
-    "webpack-cli": "^4.7.2"
+    "chalk": "^4.1.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "2.5.1"
   }
 }
