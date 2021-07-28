@@ -2,6 +2,9 @@
   "name": "expensify",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "yarn": "1.x"
+  },
   "license": "MIT",
   "scripts": {
     "server": "live-server public/",
