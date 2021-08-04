@@ -9,7 +9,7 @@ import EditExpensePage from '../components/EditExpensePage';
 import AddExpensePage from '../components/AddExpensePage';
 import ExpenseDashboardPage from '../components/ExpenseDashboardPage';
 import Header from '../components/Header';
-import { LoginPage } from '../components/LoginPage';
+import LoginPage from '../components/LoginPage';
 
 const AppRouter= () => (
   <BrowserRouter>
